@@ -7,8 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Nav = () => {
     return (
-        <div>
-            <div className="navbar bg-base-100 px-96">
+        <div className="mx-[320px]">
+            <div className="navbar bg-base-100 px-9">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -50,12 +50,10 @@ const Nav = () => {
                             </li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">
+                    <a className="btn btn-ghost normal-case text-xl ">
                         <FontAwesomeIcon icon={faFlag} />
                     </a>
-                </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 items-center">
+                    <ul className="menu menu-horizontal items-center ml-12">
                         <li>
                             <a>Start</a>
                         </li>
@@ -79,6 +77,7 @@ const Nav = () => {
                         </li>
                     </ul>
                 </div>
+                <div className="navbar-center hidden lg:flex"></div>
                 <div className="navbar-end">
                     <FontAwesomeIcon icon={faArrowRightToBracket} />
                 </div>

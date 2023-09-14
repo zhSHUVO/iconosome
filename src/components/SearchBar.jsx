@@ -3,16 +3,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const SearchBar = () => {
     return (
-        <div className="flex justify-center items-center">
-            <FontAwesomeIcon
-                icon={faMagnifyingGlass}
-                className="relative bottom-0 left-0 "
-            />
-            <input
-                type="text"
-                placeholder=" Search 26,233 icons..."
-                className="input input-bordered input-primary w-full max-w-xs rounded-full"
-            />
+        <div className="mx-[30%] py-12">
+            <div className="flex justify-center items-center relative">
+                <input
+                    type="text"
+                    placeholder="Search 26,233 icons..."
+                    className="input input-bordered input-primary w-[855px] h-16 rounded-full px-14"
+                />
+                <div className="absolute left-5">
+                    <FontAwesomeIcon
+                        icon={faMagnifyingGlass}
+                        className="text-xl"
+                    />
+                </div>
+            </div>
         </div>
     );
 };

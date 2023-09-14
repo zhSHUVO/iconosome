@@ -1,4 +1,5 @@
 import "./App.css";
+import CatFilter from "./components/CatFilter";
 import Nav from "./components/Nav";
 import SearchBar from "./components/SearchBar";
 
@@ -7,6 +8,7 @@ function App() {
         <div>
             <Nav />
             <SearchBar />
+            <CatFilter />
         </div>
     );
 }
