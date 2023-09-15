@@ -27,18 +27,21 @@ const CatFilter = ({ selectedCategories, setSelectedCategories }) => {
     };
 
     return (
-        <div className="flex items-center justify-between px-[204px]">
+        <div className="flex xs:flex-col-reverse lg:flex-row lg:items-center lg:justify-between lg:px-[204px] xs:pb-8 lg:pb-0">
             {/* left */}
-            <div className="flex justify-center items-center">
+            <div className="flex lg:justify-center xs:justify-around items-center xs:pt-10">
                 <button
                     className={` ${
                         isCategorySelected("classic")
                             ? "text-blue-600"
                             : "text-black"
-                    } py-6 px-10 flex flex-col items-center hover:text-blue-500`}
+                    } lg:py-6 lg:px-10 flex flex-col items-center hover:text-blue-500`}
                     onClick={() => toggleCategory("classic")}
                 >
-                    <FontAwesomeIcon icon={faIcons} className="text-3xl" />
+                    <FontAwesomeIcon
+                        icon={faIcons}
+                        className="lg:text-3xl xs:text-2xl"
+                    />
                     <p className="mt-3 text-sm">Classic</p>
                 </button>
                 <button
@@ -46,10 +49,13 @@ const CatFilter = ({ selectedCategories, setSelectedCategories }) => {
                         isCategorySelected("sharp")
                             ? "text-blue-600"
                             : "text-black"
-                    } py-6 px-10 flex flex-col items-center hover:text-blue-500`}
+                    } lg:py-6 lg:px-10 flex flex-col items-center hover:text-blue-500`}
                     onClick={() => toggleCategory("sharp")}
                 >
-                    <FontAwesomeIcon icon={faIcons} className="text-3xl" />
+                    <FontAwesomeIcon
+                        icon={faIcons}
+                        className="lg:text-3xl xs:text-2xl"
+                    />
                     <p className="mt-3 text-sm">Sharp</p>
                 </button>
                 <button
@@ -57,12 +63,12 @@ const CatFilter = ({ selectedCategories, setSelectedCategories }) => {
                         isCategorySelected("brand")
                             ? "text-blue-600"
                             : "text-black"
-                    } py-6 px-10 flex flex-col items-center hover:text-blue-500`}
+                    } lg:py-6 lg:px-10 flex flex-col items-center hover:text-blue-500`}
                     onClick={() => toggleCategory("brand")}
                 >
                     <FontAwesomeIcon
                         icon={faFontAwesome}
-                        className="text-3xl"
+                        className="lg:text-3xl xs:text-2xl"
                     />
                     <p className="mt-3 text-sm">Brand</p>
                 </button>
@@ -71,40 +77,58 @@ const CatFilter = ({ selectedCategories, setSelectedCategories }) => {
                         isCategorySelected("free")
                             ? "text-blue-600"
                             : "text-black"
-                    } py-6 px-10 flex flex-col items-center hover:text-blue-500`}
+                    } lg:py-6 lg:px-10 flex flex-col items-center hover:text-blue-500`}
                     onClick={() => toggleCategory("free")}
                 >
-                    <FontAwesomeIcon icon={faBolt} className="text-3xl" />
+                    <FontAwesomeIcon
+                        icon={faBolt}
+                        className="lg:text-3xl xs:text-2xl"
+                    />
                     <p className="mt-3 text-sm">Free</p>
                 </button>
             </div>
             {/* right */}
-            <div className="flex justify-center items-center">
-                <div className="pr-5">
-                    <FontAwesomeIcon
-                        icon={faTableCellsLarge}
-                        className="text-2xl px-4 py-2"
-                    />
-                    <FontAwesomeIcon
-                        icon={faGrip}
-                        className="text-2xl px-4 py-2"
-                    />
-                    <FontAwesomeIcon
-                        icon={faList}
-                        className="text-2xl px-4 py-2"
-                    />
+            <div className="flex lg:justify-center xs:justify-around items-center">
+                <div className="lg:pr-5 w-full flex justify-around">
+                    <div>
+                        <button>
+                            <FontAwesomeIcon
+                                icon={faTableCellsLarge}
+                                className="text-2xl lg:px-4 lg:py-2"
+                            />
+                        </button>
+                    </div>
+                    <div>
+                        <button>
+                            <FontAwesomeIcon
+                                icon={faGrip}
+                                className="text-2xl lg:px-4 lg:py-2"
+                            />
+                        </button>
+                    </div>
+                    <div>
+                        {" "}
+                        <button>
+                            <FontAwesomeIcon
+                                icon={faList}
+                                className="text-2xl lg:px-4 lg:py-2"
+                            />
+                        </button>
+                    </div>
                 </div>
 
-                <select className="select select-bordered border-primary rounded-xl mr-5">
-                    <option>Featured</option>
-                    <option>Alphabetical</option>
-                </select>
+                <div className="w-full flex justify-around xs:mx-3 lg:mx-0">
+                    <select className="select select-bordered xs:px-2 lg:px-8 border-primary rounded-xl lg:mr-5 xs:mr-2">
+                        <option>Featured</option>
+                        <option>Alphabetical</option>
+                    </select>
 
-                <select className="select select-bordered border-primary rounded-xl">
-                    <option>6.4.2</option>
-                    <option>5.15.4</option>
-                    <option>All Versions</option>
-                </select>
+                    <select className="select select-bordered xs:px-2 lg:px-8 border-primary rounded-xl">
+                        <option>6.4.2</option>
+                        <option>5.15.4</option>
+                        <option>All Versions</option>
+                    </select>
+                </div>
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Nav = () => {
     return (
-        <div className="mx-[380px]">
+        <div className="lg:mx-[380px]">
             <div className="navbar bg-base-100 justify-between">
                 <div className="">
                     <div className="dropdown">
@@ -57,7 +57,7 @@ const Nav = () => {
                     <a className="btn btn-ghost normal-case text-xl">
                         <FontAwesomeIcon icon={faFlag} />
                     </a>
-                    <div className="sm:hidden lg:block">
+                    <div className="xs:hidden lg:block">
                         <ul className="menu menu-horizontal items-center ml-12">
                             <li className="mr-4">
                                 <a>Start</a>

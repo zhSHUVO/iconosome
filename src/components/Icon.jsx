@@ -3,18 +3,18 @@ const Icon = ({ filteredIcons }) => {
     return (
         <div className="px-4">
             <div className="mb-6 flex">
-                <h1 className="font-extrabold">{filteredIcons.length} Icons</h1>
+                <h1 className="font-black text-lg">{filteredIcons.length} Icons</h1>
             </div>
-            <div className="grid grid-cols-9 gap-4 mb-12">
+            <div className="grid lg:grid-cols-9 xs:grid-cols-3 gap-4 mb-12">
                 {filteredIcons.map((icon) => (
                     <div
                         key={icon.id}
-                        className="flex flex-col justify-center items-center px-3 pt-6 pb-4 bg-white rounded-lg  cursor-pointer hover:bg-yellow-300"
+                        className="flex flex-col justify-center items-center lg:px-3  lg:pt-6 xs:pt-4 lg:pb-4 xs:pb-2 bg-white rounded-lg  cursor-pointer hover:bg-yellow-300"
                     >
                         <img
                             src={icon.url}
                             alt={icon.name}
-                            className="w-[42px] h-[32px]"
+                            className="lg:w-[42px] lg:h-[32px] w-[30.6px] h-[24.5px]"
                         />
                         <p className="pt-5">{icon.name}</p>
                     </div>

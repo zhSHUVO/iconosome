@@ -23,21 +23,21 @@ function App() {
     });
 
     return (
-        <div className="font-link text-sm">
+        <div className="font-link">
             <Nav />
             <SearchBar />
             <CatFilter
                 selectedCategories={selectedCategories}
                 setSelectedCategories={setSelectedCategories}
             />
-            <div className="bg-gray-100 pt-10 pb-20 px-52 grid grid-cols-12">
-                <div className="col-span-2">
+            <div className="bg-gray-100 pt-10 pb-20 lg:px-52 lg:grid lg:grid-cols-12">
+                <div className="lg:col-span-2">
                     <SideNav
                         selectedStyles={selectedStyles}
                         setSelectedStyles={setSelectedStyles}
                     />
                 </div>
-                <div className="col-span-10">
+                <div className="lg:col-span-10">
                     <Icon
                         filteredIcons={filteredIcons}
                         selectedStyles={selectedStyles}

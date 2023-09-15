@@ -3,7 +3,11 @@
 export default {
     content: ["./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        extend: {},
+        extend: {
+            screens: {
+                xs: "320px", // Add a custom breakpoint for extra small screens
+            },
+        },
     },
     plugins: [require("daisyui")],
     daisyui: {
