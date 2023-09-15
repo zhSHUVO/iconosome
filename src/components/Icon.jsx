@@ -1,12 +1,27 @@
 /* eslint-disable react/prop-types */
-const Icon = ({ filteredIcons }) => {
+const Icon = ({ filteredIcons, sortingCriteria }) => {
+    const iconsToDisplay = [...filteredIcons];
+
+    const sortIcons = (icons, criteria) => {
+        if (criteria === "Featured") {
+            return icons.filter((icon) => icon.criteria === "featured");
+        } else if (criteria === "Alphabetical") {
+            return icons.slice().sort((a, b) => a.name.localeCompare(b.name));
+        }
+        return icons;
+    };
+
+    const sortedIcons = sortIcons(iconsToDisplay, sortingCriteria);
+
     return (
         <div className="px-4">
             <div className="mb-6 flex">
-                <h1 className="font-black text-lg">{filteredIcons.length} Icons</h1>
+                <h1 className="font-black text-lg">
+                    {sortedIcons.length} Icons
+                </h1>
             </div>
             <div className="grid lg:grid-cols-9 xs:grid-cols-3 gap-4 mb-12">
-                {filteredIcons.map((icon) => (
+                {sortedIcons.map((icon) => (
                     <div
                         key={icon.id}
                         className="flex flex-col justify-center items-center lg:px-3  lg:pt-6 xs:pt-4 lg:pb-4 xs:pb-2 bg-white rounded-lg  cursor-pointer hover:bg-yellow-300"

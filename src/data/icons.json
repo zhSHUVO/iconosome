@@ -4,6 +4,7 @@
             "id": 1,
             "name": "arrow-right",
             "category": "free",
+            "criteria": "featured",
             "style": "solid",
             "url": "assets/icons/arrow-right-solid.svg"
         },
@@ -11,6 +12,7 @@
             "id": 2,
             "name": "arrow-up",
             "category": "free",
+            "criteria": "featured",
             "style": "regular",
             "url": "assets/icons/arrow-up-from-bracket-solid.svg"
         },
@@ -25,6 +27,7 @@
             "id": 4,
             "name": "bomb",
             "category": "sharp",
+            "criteria": "featured",
             "style": "solid",
             "url": "assets/icons/bomb-solid.svg"
         },
@@ -32,6 +35,7 @@
             "id": 5,
             "name": "calender",
             "category": "classic",
+            "criteria": "featured",
             "style": "regular",
             "url": "assets/icons/calendar-days-solid.svg"
         },
@@ -46,6 +50,7 @@
             "id": 7,
             "name": "circle",
             "category": "classic",
+            "criteria": "featured",
             "style": "solid",
             "url": "assets/icons/circle-xmark-solid.svg"
         },
@@ -60,6 +65,7 @@
             "id": 9,
             "name": "download",
             "category": "classic",
+            "criteria": "featured",
             "style": "regular",
             "url": "assets/icons/download-solid.svg"
         },
@@ -74,6 +80,7 @@
             "id": 11,
             "name": "facebook",
             "category": "classic",
+            "criteria": "featured",
             "style": "regular",
             "url": "assets/icons/facebook.svg"
         },
@@ -88,6 +95,7 @@
             "id": 13,
             "name": "github",
             "category": "classic",
+            "criteria": "featured",
             "style": "regular",
             "url": "assets/icons/github.svg"
         },
@@ -102,6 +110,7 @@
             "id": 15,
             "name": "house",
             "category": "classic",
+            "criteria": "featured",
             "style": "solid",
             "url": "assets/icons/house-solid.svg"
         },
@@ -151,6 +160,7 @@
             "id": 22,
             "name": "music",
             "category": "brand",
+            "criteria": "featured",
             "style": "solid",
             "url": "assets/icons/music-solid.svg"
         },
@@ -186,6 +196,7 @@
             "id": 28,
             "name": "ticket",
             "category": "free",
+            "criteria": "featured",
             "style": "solid",
             "url": "assets/icons/ticket-solid.svg"
         },
@@ -214,6 +225,7 @@
             "id": 32,
             "name": "youtube",
             "category": "free",
+            "criteria": "featured",
             "style": "solid",
             "url": "assets/icons/youtube.svg"
         }

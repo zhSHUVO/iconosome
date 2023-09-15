@@ -6,7 +6,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const SideNav = ({ selectedStyles, setSelectedStyles }) => {
-    // Toggle the selection state of a style
     const toggleStyle = (style) => {
         if (selectedStyles.includes(style)) {
             setSelectedStyles(selectedStyles.filter((s) => s !== style));
@@ -15,7 +14,6 @@ const SideNav = ({ selectedStyles, setSelectedStyles }) => {
         }
     };
 
-    // Function to determine if a style is selected
     const isStyleSelected = (style) => {
         return selectedStyles.includes(style);
     };

@@ -9,8 +9,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const CatFilter = ({ selectedCategories, setSelectedCategories }) => {
-    // Toggle the selection state of a category
+const CatFilter = ({
+    selectedCategories,
+    setSelectedCategories,
+    setSortingCriteria,
+}) => {
     const toggleCategory = (category) => {
         if (selectedCategories.includes(category)) {
             setSelectedCategories(
@@ -21,7 +24,6 @@ const CatFilter = ({ selectedCategories, setSelectedCategories }) => {
         }
     };
 
-    // Function to determine if a category is selected
     const isCategorySelected = (category) => {
         return selectedCategories.includes(category);
     };
@@ -118,7 +120,10 @@ const CatFilter = ({ selectedCategories, setSelectedCategories }) => {
                 </div>
 
                 <div className="w-full flex justify-around xs:mx-3 lg:mx-0">
-                    <select className="select select-bordered xs:px-2 lg:px-8 border-primary rounded-xl lg:mr-5 xs:mr-2">
+                    <select
+                        className="select select-bordered xs:px-2 lg:px-8 border-primary rounded-xl lg:mr-5 xs:mr-2"
+                        onChange={(e) => setSortingCriteria(e.target.value)}
+                    >
                         <option>Featured</option>
                         <option>Alphabetical</option>
                     </select>

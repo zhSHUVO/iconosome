@@ -13,6 +13,7 @@ const iconData = icon.icons;
 function App() {
     const [selectedCategories, setSelectedCategories] = useState([]);
     const [selectedStyles, setSelectedStyles] = useState([]);
+    const [sortingCriteria, setSortingCriteria] = useState("Featured");
 
     const filteredIcons = iconData.filter((icon) => {
         return (
@@ -29,6 +30,7 @@ function App() {
             <CatFilter
                 selectedCategories={selectedCategories}
                 setSelectedCategories={setSelectedCategories}
+                setSortingCriteria={setSortingCriteria}
             />
             <div className="bg-gray-100 pt-10 pb-20 lg:px-52 lg:grid lg:grid-cols-12">
                 <div className="lg:col-span-2">
@@ -42,6 +44,7 @@ function App() {
                         filteredIcons={filteredIcons}
                         selectedStyles={selectedStyles}
                         selectedCategories={selectedCategories}
+                        sortingCriteria={sortingCriteria}
                     />
                 </div>
             </div>
