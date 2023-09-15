@@ -1,15 +1,12 @@
-import iconData from "../data/icons.json";
-
-const Icon = () => {
+/* eslint-disable react/prop-types */
+const Icon = ({ filteredIcons }) => {
     return (
         <div className="px-4">
-            <div className="mb-6">
-                <div>
-                    <h1>229 Icons</h1>
-                </div>
+            <div className="mb-6 flex">
+                <h1 className="font-extrabold">{filteredIcons.length} Icons</h1>
             </div>
             <div className="grid grid-cols-9 gap-4 mb-12">
-                {iconData.icons.map((icon) => (
+                {filteredIcons.map((icon) => (
                     <div
                         key={icon.id}
                         className="flex flex-col justify-center items-center px-3 pt-6 pb-4 bg-white rounded-lg  cursor-pointer hover:bg-yellow-300"

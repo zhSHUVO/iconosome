@@ -31,51 +31,57 @@ const Nav = () => {
                             tabIndex={0}
                             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
                         >
-                            <li>
-                                <a>Item 1</a>
+                            <li className="mr-4">
+                                <a>Start</a>
                             </li>
-                            <li>
-                                <a>Parent</a>
-                                <ul className="p-2">
-                                    <li>
-                                        <a>Submenu 1</a>
-                                    </li>
-                                    <li>
-                                        <a>Submenu 2</a>
-                                    </li>
-                                </ul>
+                            <li className="mr-4">
+                                <FontAwesomeIcon icon={faMagnifyingGlass} />
                             </li>
-                            <li>
-                                <a>Item 3</a>
+                            <li className="mr-4">
+                                <a>Icons</a>
+                            </li>
+                            <li className="mr-4">
+                                <a>Docs</a>
+                            </li>
+                            <li className="mr-4">
+                                <a>Plans</a>
+                            </li>
+                            <li className="mr-4">
+                                <a>Support</a>
+                            </li>
+                            <li className="mr-4">
+                                <a>Podcast</a>
                             </li>
                         </ul>
                     </div>
                     <a className="btn btn-ghost normal-case text-xl">
                         <FontAwesomeIcon icon={faFlag} />
                     </a>
-                    <ul className="menu menu-horizontal items-center ml-12">
-                        <li className="mr-4">
-                            <a>Start</a>
-                        </li>
-                        <li className="mr-4">
-                            <FontAwesomeIcon icon={faMagnifyingGlass} />
-                        </li>
-                        <li className="mr-4">
-                            <a>Icons</a>
-                        </li>
-                        <li className="mr-4">
-                            <a>Docs</a>
-                        </li>
-                        <li className="mr-4">
-                            <a>Plans</a>
-                        </li>
-                        <li className="mr-4">
-                            <a>Support</a>
-                        </li>
-                        <li className="mr-4">
-                            <a>Podcast</a>
-                        </li>
-                    </ul>
+                    <div className="sm:hidden lg:block">
+                        <ul className="menu menu-horizontal items-center ml-12">
+                            <li className="mr-4">
+                                <a>Start</a>
+                            </li>
+                            <li className="mr-4">
+                                <FontAwesomeIcon icon={faMagnifyingGlass} />
+                            </li>
+                            <li className="mr-4">
+                                <a>Icons</a>
+                            </li>
+                            <li className="mr-4">
+                                <a>Docs</a>
+                            </li>
+                            <li className="mr-4">
+                                <a>Plans</a>
+                            </li>
+                            <li className="mr-4">
+                                <a>Support</a>
+                            </li>
+                            <li className="mr-4">
+                                <a>Podcast</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="">
                     <FontAwesomeIcon icon={faArrowRightToBracket} />
