@@ -7,9 +7,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Nav = () => {
     return (
-        <div className="mx-[320px]">
-            <div className="navbar bg-base-100 px-9">
-                <div className="navbar-start">
+        <div className="mx-[380px]">
+            <div className="navbar bg-base-100 justify-between">
+                <div className="">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg
@@ -50,35 +50,34 @@ const Nav = () => {
                             </li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl ">
+                    <a className="btn btn-ghost normal-case text-xl">
                         <FontAwesomeIcon icon={faFlag} />
                     </a>
                     <ul className="menu menu-horizontal items-center ml-12">
-                        <li>
+                        <li className="mr-4">
                             <a>Start</a>
                         </li>
-                        <li>
+                        <li className="mr-4">
                             <FontAwesomeIcon icon={faMagnifyingGlass} />
                         </li>
-                        <li>
+                        <li className="mr-4">
                             <a>Icons</a>
                         </li>
-                        <li>
+                        <li className="mr-4">
                             <a>Docs</a>
                         </li>
-                        <li>
+                        <li className="mr-4">
                             <a>Plans</a>
                         </li>
-                        <li>
+                        <li className="mr-4">
                             <a>Support</a>
                         </li>
-                        <li>
+                        <li className="mr-4">
                             <a>Podcast</a>
                         </li>
                     </ul>
                 </div>
-                <div className="navbar-center hidden lg:flex"></div>
-                <div className="navbar-end">
+                <div className="">
                     <FontAwesomeIcon icon={faArrowRightToBracket} />
                 </div>
             </div>
