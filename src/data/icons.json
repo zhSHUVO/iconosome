@@ -5,217 +5,217 @@
             "name": "arrow-right",
             "category": "free",
             "style": "solid",
-            "url": "/src/assets/icons/arrow-right-solid.svg"
+            "url": "assets/icons/arrow-right-solid.svg"
         },
         {
             "id": 2,
             "name": "arrow-up",
             "category": "free",
             "style": "regular",
-            "url": "/src/assets/icons/arrow-up-from-bracket-solid.svg"
+            "url": "assets/icons/arrow-up-from-bracket-solid.svg"
         },
         {
             "id": 3,
             "name": "bars",
             "category": "sharp",
             "style": "regular",
-            "url": "/src/assets/icons/bars-solid.svg"
+            "url": "assets/icons/bars-solid.svg"
         },
         {
             "id": 4,
             "name": "bomb",
             "category": "sharp",
             "style": "solid",
-            "url": "/src/assets/icons/bomb-solid.svg"
+            "url": "assets/icons/bomb-solid.svg"
         },
         {
             "id": 5,
             "name": "calender",
             "category": "classic",
             "style": "regular",
-            "url": "/src/assets/icons/calendar-days-solid.svg"
+            "url": "assets/icons/calendar-days-solid.svg"
         },
         {
             "id": 6,
             "name": "check",
             "category": "classic",
             "style": "solid",
-            "url": "/src/assets/icons/check-solid.svg"
+            "url": "assets/icons/check-solid.svg"
         },
         {
             "id": 7,
             "name": "circle",
             "category": "classic",
             "style": "solid",
-            "url": "/src/assets/icons/circle-xmark-solid.svg"
+            "url": "assets/icons/circle-xmark-solid.svg"
         },
         {
             "id": 8,
             "name": "discord",
             "category": "sharp",
             "style": "regular",
-            "url": "/src/assets/icons/discord.svg"
+            "url": "assets/icons/discord.svg"
         },
         {
             "id": 9,
             "name": "download",
             "category": "classic",
             "style": "regular",
-            "url": "/src/assets/icons/download-solid.svg"
+            "url": "assets/icons/download-solid.svg"
         },
         {
             "id": 10,
             "name": "envelope",
             "category": "brand",
             "style": "solid",
-            "url": "/src/assets/icons/envelope-solid.svg"
+            "url": "assets/icons/envelope-solid.svg"
         },
         {
             "id": 11,
             "name": "facebook",
             "category": "classic",
             "style": "regular",
-            "url": "/src/assets/icons/facebook.svg"
+            "url": "assets/icons/facebook.svg"
         },
         {
             "id": 12,
             "name": "gear",
             "category": "brand",
             "style": "solid",
-            "url": "/src/assets/icons/gear-solid.svg"
+            "url": "assets/icons/gear-solid.svg"
         },
         {
             "id": 13,
             "name": "github",
             "category": "classic",
             "style": "regular",
-            "url": "/src/assets/icons/github.svg"
+            "url": "assets/icons/github.svg"
         },
         {
             "id": 14,
             "name": "heart",
             "category": "brand",
             "style": "solid",
-            "url": "/src/assets/icons/heart-solid.svg"
+            "url": "assets/icons/heart-solid.svg"
         },
         {
             "id": 15,
             "name": "house",
             "category": "classic",
             "style": "solid",
-            "url": "/src/assets/icons/house-solid.svg"
+            "url": "assets/icons/house-solid.svg"
         },
         {
             "id": 16,
             "name": "image",
             "category": "brand",
             "style": "regular",
-            "url": "/src/assets/icons/image-solid.svg"
+            "url": "assets/icons/image-solid.svg"
         },
         {
             "id": 17,
             "name": "instagram",
             "category": "brand",
             "style": "solid",
-            "url": "/src/assets/icons/instagram.svg"
+            "url": "assets/icons/instagram.svg"
         },
         {
             "id": 18,
             "name": "linkedin",
             "category": "brand",
             "style": "regular",
-            "url": "/src/assets/icons/linkedin.svg"
+            "url": "assets/icons/linkedin.svg"
         },
         {
             "id": 19,
             "name": "location-dot",
             "category": "free",
             "style": "solid",
-            "url": "/src/assets/icons/location-dot-solid.svg"
+            "url": "assets/icons/location-dot-solid.svg"
         },
         {
             "id": 20,
             "name": "magnifying",
             "category": "brand",
             "style": "solid",
-            "url": "/src/assets/icons/magnifying-glass-solid.svg"
+            "url": "assets/icons/magnifying-glass-solid.svg"
         },
         {
             "id": 21,
             "name": "mug",
             "category": "free",
             "style": "regular",
-            "url": "/src/assets/icons/mug-hot-solid.svg"
+            "url": "assets/icons/mug-hot-solid.svg"
         },
         {
             "id": 22,
             "name": "music",
             "category": "brand",
             "style": "solid",
-            "url": "/src/assets/icons/music-solid.svg"
+            "url": "assets/icons/music-solid.svg"
         },
         {
             "id": 23,
             "name": "paper-plane",
             "category": "free",
             "style": "regular",
-            "url": "/src/assets/icons/paper-plane-solid.svg"
+            "url": "assets/icons/paper-plane-solid.svg"
         },
         {
             "id": 24,
             "name": "phone",
             "category": "free",
             "style": "solid",
-            "url": "/src/assets/icons/phone-solid.svg"
+            "url": "assets/icons/phone-solid.svg"
         },
         {
             "id": 26,
             "name": "star",
             "category": "free",
             "style": "regular",
-            "url": "/src/assets/icons/star-solid.svg"
+            "url": "assets/icons/star-solid.svg"
         },
         {
             "id": 27,
             "name": "thumbs-up",
             "category": "brand",
             "style": "regular",
-            "url": "/src/assets/icons/thumbs-up-solid.svg"
+            "url": "assets/icons/thumbs-up-solid.svg"
         },
         {
             "id": 28,
             "name": "ticket",
             "category": "free",
             "style": "solid",
-            "url": "/src/assets/icons/ticket-solid.svg"
+            "url": "assets/icons/ticket-solid.svg"
         },
         {
             "id": 29,
             "name": "twitter",
             "category": "brand",
             "style": "regular",
-            "url": "/src/assets/icons/twitter.svg"
+            "url": "assets/icons/twitter.svg"
         },
         {
             "id": 30,
             "name": "user",
             "category": "free",
             "style": "solid",
-            "url": "/src/assets/icons/user-solid.svg"
+            "url": "assets/icons/user-solid.svg"
         },
         {
             "id": 31,
             "name": "wand-magic",
             "category": "brand",
             "style": "regular",
-            "url": "/src/assets/icons/wand-magic-sparkles-solid.svg"
+            "url": "assets/icons/wand-magic-sparkles-solid.svg"
         },
         {
             "id": 32,
             "name": "youtube",
             "category": "free",
             "style": "solid",
-            "url": "/src/assets/icons/youtube.svg"
+            "url": "assets/icons/youtube.svg"
         }
     ]
 }
